@@ -5,8 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: url("assets/christmas-background1.png");
-    background-position: 20%;
+    background: url("assets/fireworks-background.jpg");
+    background-position: center;
     background-size: cover;
     backdrop-filter: brightness(50%) blur(5px);
     -webkit-backdrop-filter: brightness(50%) blur(5px);
@@ -17,11 +17,21 @@ body {
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
 }
 
 @media only screen and (max-width: 350px) {
