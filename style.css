@@ -5,8 +5,8 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    background: url("assets/fireworks-background.jpg");
-    background-position: center;
+    background: url("assets/coffe-shop-background.gif");
+    background-position: 15%;
     background-size: cover;
     backdrop-filter: brightness(50%) blur(5px);
     -webkit-backdrop-filter: brightness(50%) blur(5px);
@@ -24,7 +24,7 @@ h2 {
     font-size: 3rem;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     h1 {
         font-size: 4rem;
     }
@@ -32,9 +32,17 @@ h2 {
     h2 {
         font-size: 2rem;
     }
+
+    h1:hover {
+        font-size: 5rem;
+    }
+
+    h2:hover {
+        font-size: 3rem;
+    }
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 300px) {
     h1 {
         font-size: 3rem;
     }
